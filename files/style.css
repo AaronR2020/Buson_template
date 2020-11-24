@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,900;1,700&display=swap');
 body{
+    
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -56,9 +57,9 @@ background-color: rgb(255, 111, 135);
     padding-bottom: 40px;
     margin-left: 18%; 
 }
+
 #S1 h1{
     display: block;
-
     font-size: 4.4vw;
     margin: 0px;
     padding: 0px;
@@ -102,3 +103,122 @@ a{
     margin-bottom: 0px;
 }
 /*s2*/
+#s2{
+    width: 100%;
+    background-color: rgb(236, 236, 243);
+    padding: 10% 0;
+}
+.s2M{
+    margin-left: 18%;
+}
+.w20{
+    height: 40%;
+    width: 30%;
+    margin: 3%;
+}
+.w20 p{
+    color: rgb(78, 77, 77);
+    font-weight: 400;
+}
+.flexR{
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+.black{
+    color: black;
+}
+.inlineB{
+    display: inline-block;
+    margin-right: 20px;
+}
+/*s3*/
+#s3{
+    display: flex;
+    flex-direction: column;
+}
+.position{
+    padding-top: 5%;
+    padding-bottom: 40px;
+    margin-left: 18%; 
+}
+#overlap{
+    color: rgb(88, 87, 87);
+    padding: 1% 2%;
+    align-self: flex-end;
+}
+.flexC{
+    display: flex;
+    flex-direction: column;
+}
+#p{
+    border-style: solid;
+    border-color: rgb(255, 111, 135);
+    border-width: 1px;
+    padding: 10px 20px;
+}
+.boxx{
+margin-bottom: 130px;
+text-align: center; 
+color:  rgb(255, 111, 135); 
+}
+/*s4*/
+#s4{
+    width: 100%;
+    background-color: rgb(236, 236, 243);
+    padding-top: 80px;
+    padding-bottom: 120px;
+
+}
+.testom{
+    padding-top: 8%;
+    text-align: center;
+}
+.a img{
+    padding: 0px;
+}
+/*s5*/
+h6{
+    margin: 0px;
+    padding-left: 10px;
+    color:rgb(255, 111, 135); 
+}
+h4{
+    margin: 0px;
+    padding-left: 10px;
+}
+/*s7*/
+#s7{
+    margin-top: 10%;
+    padding: 5% 2%;
+    background-color: rgb(2, 2, 100);
+}
+.M7{
+    width: 80%;
+    margin:0 auto;
+}
+.border{
+    border: 3px solid black;
+}
+.border p{
+    font-size: 0.8em;
+}
+.m0{
+    margin: 0px;
+    margin-left: 3px;
+    padding: 0px;
+}
+.padding10{
+    padding: 10px;
+}
+#s8{
+    margin-top: 5%;
+    padding: 5% 2%;
+}
+.m10px{
+    margin-top: 10px;
+}
+.gr{
+    font-weight: 400;
+    color: rgb(88, 87, 87);
+}
