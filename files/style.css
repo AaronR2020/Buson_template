@@ -177,6 +177,7 @@ color:  rgb(255, 111, 135);
 .a img{
     padding: 0px;
 }
+
 /*s5*/
 h6{
     margin: 0px;
@@ -221,4 +222,34 @@ h4{
 .gr{
     font-weight: 400;
     color: rgb(88, 87, 87);
+}
+
+/*about web page*/
+/*about web page*/
+/*about web page*/
+.s{
+    margin-top: 10%;
+}
+
+.AboutBanner{
+    width: 100%;
+    margin-top: 80px;
+    height: 300px;
+    background: url("../assets/hero/about_hero.jpg");
+}
+.About_bgcolor{
+
+    margin-top: 10%;
+    background-color: rgb(235, 218, 247);
+}
+
+
+/*service web page*/
+/*service web page*/
+/*service web page*/
+.ServicesBanner{
+    width: 100%;
+    margin-top: 80px;
+    height: 300px;
+    background: url("../assets/hero/services_hero.jpg");
 }
