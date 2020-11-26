@@ -242,7 +242,6 @@ h4{
     background: url("../assets/hero/about_hero.jpg");
 }
 .About_bgcolor{
-
     margin-top: 10%;
     background-color: rgb(235, 218, 247);
 }
@@ -300,4 +299,32 @@ h4{
 }
 .tp{
     margin-top: 30px;
+}
+.BlogBanner{
+
+    width: 100%;
+    margin-top: 80px;
+    height: 300px;
+    background: url("../assets/hero/blog_hero.jpg"); 
+
+}
+/*blog*/
+.boxNumber{
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+    width: 60px;
+    height: 70px;
+    border-radius: 4px;
+    background-color: rgb(255, 111, 135);
+}
+.bgG{
+    background-color: rgb(255, 255, 255);
+}
+.B{
+    padding: 10px;
+}
+.bgGray{
+    padding: 10px;
+    background-color: rgb(236, 237, 241);
 }
