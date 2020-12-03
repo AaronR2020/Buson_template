@@ -64,6 +64,12 @@ table {
     justify-content: flex-end;
     flex: 0 1 100%;
 }
+.flex-wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+}
 .flex{
     display: flex;
     justify-content: space-between;
@@ -82,6 +88,10 @@ a{
 .padding-general{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.padding-general-2x{
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .btn{
     display: inline-block;
@@ -113,7 +123,12 @@ a{
 .col-1-6{
     width: 60%;
 }
-
+.col-1-7{
+    width: 70%;
+}
+.background-color{
+    background-color: rgb(237, 236, 245); ;
+}
 /*..................................general-color................*/
 
 /*section background   rgb(237, 236, 245);*/
@@ -403,9 +418,87 @@ background-color: rgb(237, 236, 245);
 
 
 /*cases*/
-
+.hero-cases-section{
+    min-width: 100%; 	
+    min-height: 100%;
+    background-image: url("../images/hero/cases_hero.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position: top;
+}
+.hero-cases-section .container h3{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    color:  rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+.superimpose-childern{
+    position: relative;
+}
+.cases{
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.superimpose-childern img{
+    margin: 10px;
+    margin-left: 0px;
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+.superimpose-childern h4{
+    text-align: start;
+    margin: 0px;
+}
 
 /*contact*/
-
+.hero-contact-section{
+    min-width: 100%; 	
+    min-height: 100%;
+    background-image: url("../images/hero/contact_hero.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position: top;
+}
 
 /*services*/
+.hero-service-section{
+    min-width: 100%; 	
+    min-height: 100%;
+    background-image: url("../images/hero/services_hero.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position: top;
+}
+
+.hero-service-section .container h3{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    color:  rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+/*about*/
+.hero-about-section{
+    min-width: 100%; 	
+    min-height: 100%;
+    background-image: url("../images/hero/about_hero.jpg");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-position: top;
+}
+.hero-about-section .container h3{
+    text-align: center;
+    font-size: 46px;
+    font-weight: 800;
+    color:  rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
