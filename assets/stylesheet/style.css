@@ -48,8 +48,12 @@ table {
 /*.......................general.........................*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/*.............ask...........why did fonts not work in this */
 *{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header,main,footer{
     font-family: 'Poppins', sans-serif;
 }
 .flex-row{
@@ -113,7 +117,8 @@ a{
 .btn{
     display: inline-block;
     padding: 10px 20px;
-    border-radius: 6px;  
+    border-radius: 6px;
+    font-weight: 500;  
 }
 .btn-primary{
     background-color: rgb(248, 111, 87);
@@ -122,7 +127,7 @@ a{
 .btn-secondary{
     background-color: white;
     color: rgb(248, 111, 87);
-    border: 1px solid rgb(248, 111, 87);;
+    border: 3px solid rgb(248, 111, 87);
 }
 .col-1-1{
     width: 10%;
@@ -188,8 +193,16 @@ a{
     display: inline;
     margin-left: 20px;
 }
+.navigation-header .white a{
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 500 ;
+    color: rgb(41, 2, 68);  
+}
 .navigation-header li a{
-    text-decoration: none;  
+    text-decoration: none;
+    font-size: 20px; 
+    font-weight: 600 ;
     color: rgb(41, 2, 68);   
 }
 .navigation-header .white a{
@@ -255,7 +268,8 @@ background-color: rgb(237, 236, 245);
 }
 .jobs-home-border div h3{
     font-size: 36px;
-    font-weight: 600;
+/*................ask ...........why does font weight not work here........*/
+    font-weight: bolder;
     line-height: 1.2;
     margin: 5px 0;
 }
@@ -275,6 +289,7 @@ background-color: rgb(237, 236, 245);
     display: inline-block;
     padding-top: 30px;
     color: black;
+    font-weight: bolder
 }
 .transparent-background{
     width: 400px;
@@ -397,6 +412,9 @@ background-color: rgb(237, 236, 245);
     font-weight: 700;
     line-height: 1.2;
 }
+.callback{
+    color: white;
+}
 .callback .col-1-4 p{
     color: white;
     margin-top: 20px;
@@ -404,7 +422,23 @@ background-color: rgb(237, 236, 245);
 }
 .callback-background{
     background-color: rgb(59, 11, 59);
+    
 }
+.callback-form form div input{
+    padding: 10px;
+    background-color:rgb(59, 11, 59);
+    border: 2px solid rgb(99, 17, 99);;
+
+}
+.callback-form form div input::placeholder{
+    color: white;
+    opacity: 1;
+    font-size: 15px;
+}
+.callback-form form .form-margin input::placeholder{
+    color: gray;
+}
+
 .col-1-2 img{
     margin-bottom: 10px;
 }
@@ -724,6 +758,10 @@ font-weight: bolder;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 20px;
+}
+.input-form-contacts input{
+padding: 10px;
 }
 .right-display-category .tag-clouds h6{
     display: inline-block;

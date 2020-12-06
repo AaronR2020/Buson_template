@@ -1,0 +1,15 @@
+done
+header>nav ("make links bolder")
+btn-primary ("increase top and bottom padding")
+btn-secondary (increase font weight for inner text)
+request for callback> form 
+("increase padding and add background color
+ for form and change color")
+Blog> add header
+blog>tag-cloud border and lower tags> add space
+increase padding in form in contacts.
+
+not-done [ need to rewrite whole code ]:
+.what we do for you (make heading bolder)
+.Our services increase line height.
+
