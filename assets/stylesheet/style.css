@@ -190,7 +190,10 @@ footer h5{
     margin-left: 20px;
 }
 .social-media-header li{
-    display: inline;
+    display: inline-block;
+}
+.social-media-header li a{
+    color: white;
 }
 .navigation-header li{
     display: inline;
