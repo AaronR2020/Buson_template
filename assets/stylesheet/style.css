@@ -163,6 +163,9 @@ a{
 .background-color{
     background-color: rgb(237, 236, 245); ;
 }
+footer h5{
+    font-weight: 700;
+}
 /*..................................general-color................*/
 
 /*section background   rgb(237, 236, 245);*/
