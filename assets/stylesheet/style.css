@@ -188,12 +188,17 @@ footer h5{
 }
 .social-media-header li{ 
     margin-left: 20px;
+    display: inline-block;
 }
-.social-media-header li{
+footer .col-1-2 .social-media-footer li{
+    margin-right: 5px;
     display: inline-block;
 }
 .social-media-header li a{
     color: white;
+}
+.col-1-2 .social-media-footer li a{
+    color: black;
 }
 .navigation-header li{
     display: inline;
